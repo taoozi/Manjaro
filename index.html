@@ -4217,6 +4217,8 @@
             role="presentation"><span role="presentation" style="padding-right: 0.1px;">$ sudo pacman -Rsc 包名<span class="cm-tab" role="presentation" cm-text="	">   </span>在删除包的同时，删除所有依赖这个软件包的程序</span></pre>
         <pre class=" CodeMirror-line "
             role="presentation"><span role="presentation" style="padding-right: 0.1px;">$ sudo pacman -Rd 包名<span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-tab" role="presentation" cm-text="	">    </span>在删除包时不检查依赖</span></pre>
+        <pre class=" CodeMirror-line "
+            role="presentation"><span role="presentation" style="padding-right: 0.1px;">$ sudo pacman -R $(pacman -Qdtq)<span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-tab" role="presentation" cm-text="	">    </span>清除系统中无用的包</span></pre>
     </div>
     </div>
     </div>
